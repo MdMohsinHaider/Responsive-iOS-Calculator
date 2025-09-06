@@ -1,38 +1,38 @@
 # Responsive iOS-Style Calculator
 
-A modern, fully responsive calculator web app inspired by the iOS calculator, built with HTML, CSS, and JavaScript.
+A fully responsive calculator web app inspired by the iOS calculator, built using HTML, CSS, and JavaScript.
+
+**Live Demo:**  
+[https://mdmohsinhaider.github.io/Responsive-iOS-Calculator/](https://mdmohsinhaider.github.io/Responsive-iOS-Calculator/)
 
 ## Features
 
-- Responsive design: Optimized for both mobile and desktop screens.
-- Sleek iOS-inspired dark UI.
-- Basic arithmetic operations with memory functions (MC, MR, M+, M-).
-- Calculation history display and persistent local storage.
-- Option to share recent history via WhatsApp, Email, or SMS through a popup.
-- Delete history feature.
+- Responsive design: Works seamlessly from mobile to desktop.
+- Sleek, dark iOS-inspired UI.
+- Arithmetic and memory functions (MC, MR, M+, M-).
+- Calculation history with persistent local storage.
+- Share recent history via WhatsApp, Email, or SMS from a popup menu.
+- Delete calculation history feature.
 
 ## Getting Started
 
 1. Clone or download the repository.
-2. Open `index.html` in any web browser — no build or dependencies required.
+2. Open `index.html` in your web browser. No dependencies required.
 
 ## File Structure
 
-- `index.html` : Main HTML file for the calculator UI
-- `style.css`  : Responsive CSS styling
-- `script.js`  : Calculator logic and interactivity
-- `README.md`  : Project documentation (this file)
-- `LICENSE.md` : License information
+- `index.html` – Calculator markup.
+- `style.css` – Responsive styles.
+- `script.js` – Calculator logic and interactions.
+- `README.md` – Project documentation.
+- `LICENSE.md` – License info.
 
 ## Usage
 
-Simply open the `index.html` file and use the calculator. On mobile devices, the design adapts for optimal touch usability.
-
-## Share & History
-
-- Click "Share History" to choose sharing via WhatsApp, Email, or SMS.
-- Recent history is displayed at the bottom and persists across sessions (stored locally).
+- Launch the calculator from the [live demo](https://mdmohsinhaider.github.io/Responsive-iOS-Calculator/).
+- Use the buttons to perform calculations; memory and history features are included.
+- Share your recent calculation history or clear it at any time.
 
 ## License
 
-See [LICENSE.md](LICENSE.md) for details.
+Distributed under the [MIT License](LICENSE.md).
