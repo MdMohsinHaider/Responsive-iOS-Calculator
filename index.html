@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Responsive iOS Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="calculator">
+        <div class="status-bar">
+            <span id="current-time"></span>
+            <span>CALCULATOR</span>
+        </div>
+        <div class="display">
+            <div id="calc-expression"></div>
+            <input type="text" id="calc-input" disabled />
+        </div>
+
+        <div class="buttons">
+            <button onclick="clearInput()">C</button>
+            <button onclick="memoryClear()">MC</button>
+            <button onclick="memoryAdd()">M+</button>
+            <button onclick="memorySubtract()">M-</button>
+            <button onclick="memoryRecall()">MR</button>
+            <button onclick="appendValue('/')">÷</button>
+            <button onclick="appendValue('*')">×</button>
+            <button onclick="appendValue('-')">−</button>
+            <button onclick="appendValue('+')">+</button>
+            <button onclick="appendValue('7')">7</button>
+            <button onclick="appendValue('8')">8</button>
+            <button onclick="appendValue('9')">9</button>
+            <button onclick="appendValue('4')">4</button>
+            <button onclick="appendValue('5')">5</button>
+            <button onclick="appendValue('6')">6</button>
+            <button onclick="appendValue('1')">1</button>
+            <button onclick="appendValue('2')">2</button>
+            <button onclick="appendValue('3')">3</button>
+            <button onclick="appendValue('0')">0</button>
+            <button onclick="appendValue('.')">.</button>
+            <button onclick="calculateResult()">=</button>
+        </div>
+
+        <div class="actions">
+            <button onclick="openSharePopup()">Share History</button>
+            <button onclick="deleteHistory()">Delete History</button>
+        </div>
+        <div id="calc-history"></div>
+    </div>
+
+    <div id="share-popup" class="share-popup">
+        <div class="share-popup-inner">
+            <span>Share recent history via:</span>
+            <button onclick="shareHistory('whatsapp')">WhatsApp</button>
+            <button onclick="shareHistory('email')">Email</button>
+            <button onclick="shareHistory('sms')">SMS</button>
+            <button onclick="closeSharePopup()">Cancel</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
